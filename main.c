@@ -16,7 +16,7 @@ int main(void){
     unsigned long temps = (double)(end-begin)/CLOCKS_PER_SEC;
     printf( "Finished fibo naif in %ld s\n", temps ); 
     begin = clock();
-    printf("naif: %i\n", fibo_dynamique(5));
+    printf("dynamique: %i\n", fibo_dynamique(5));
     end = clock();
     temps = (double)(end-begin)/CLOCKS_PER_SEC;
     printf( "Finished fibo dyna in %ld s\n", temps ); 
