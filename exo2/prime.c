@@ -10,9 +10,9 @@ int boucle_prime_naif(int n){
         }
     }
     if (divisers == 1){
-        return 1;
+        return 0;
     }
-    return 0;
+    return 1;
 }
 
 void list_primes_naif(int n){
