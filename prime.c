@@ -4,7 +4,7 @@
 
 int boucle_prime_naif(int n){
     int divisers = 0;
-    for (int i = 2; i<sqrt(n+1); i++){
+    for (int i = 2; i<n+1; i++){
         if (n%i == 0){
             divisers++;
         }
