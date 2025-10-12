@@ -9,6 +9,7 @@
 int main(void){
 
 //prime exo 2
+    clock_t end;
     double temps;
     float ms;
     clock_t begin;
